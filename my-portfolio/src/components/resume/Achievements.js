@@ -10,6 +10,7 @@ const Achievements = () => {
           <Title
             title=''
             des='Achievements'
+
           />
       </div>
 
