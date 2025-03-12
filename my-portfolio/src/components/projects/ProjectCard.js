@@ -1,7 +1,7 @@
 import React from 'react'
 import {BsGithub} from "react-icons/bs"
 import {FaGlobe} from "react-icons/fa"
-const ProjectCard = ({title,desc,src,link}) => {
+const ProjectCard = ({title,desc,src,link,liveLink}) => {
   return (
     <div className=' w-full p-4 lg:px-12 h-auto lg:py-10 rounded-lg shadow-shadowOne flex flex-col bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-gray-900 hover:gray-900 
     transition-colors duration 1000'
@@ -28,7 +28,14 @@ const ProjectCard = ({title,desc,src,link}) => {
                     </a>
                     </span>
                     <span className='text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer'>
-                        <FaGlobe/>
+                        <a 
+                        href={liveLink}
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className='text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer'
+                        >
+                          <FaGlobe/>
+                        </a>
                     </span>
                 </div>
             </div>

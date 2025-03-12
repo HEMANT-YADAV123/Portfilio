@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
-import { FaFacebookF, FaInstagram, FaLinkedin, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiJavascript, SiNodedotjs, SiHtml5, SiCss3, SiTypescript, SiExpress, SiReact, SiMongodb, SiMysql } from "react-icons/si";
+import { FaFacebookF, FaGithub, FaInstagram, FaJava, FaLinkedin, FaLinux, FaReact } from "react-icons/fa";
+import { SiTailwindcss, SiJavascript, SiNodedotjs, SiHtml5, SiCss3, SiTypescript, SiExpress, SiMongodb, SiMysql, SiPostgresql, SiGraphql, SiRedux, SiCplusplus, SiNextdotjs, SiClerk, SiC } from "react-icons/si";
 
 
 const LeftBanner = () => {
@@ -64,15 +64,12 @@ const LeftBanner = () => {
           BEST SKILLS ON
         </h2>
 
-        <div className='grid grid-cols-5 lg:gap-4 gap-2'>
-              <span className='bannerIcon'>
-                  <SiJavascript />
+        <div className='grid grid-cols-5 lg:grid-cols-5 lg:gap-4 gap-2 md:grid-cols-8'>
+              <span className="bannerIcon">
+                  <SiMongodb />
               </span>
-              <span className='bannerIcon'>
-                  <SiNodedotjs/>
-              </span>
-              <span className='bannerIcon'>
-                  <SiTailwindcss/>
+              <span className="bannerIcon">
+                  <SiExpress />
               </span>
               <span className='bannerIcon'>
                   <FaReact/>
@@ -81,32 +78,54 @@ const LeftBanner = () => {
                   <SiNodedotjs/>
               </span>
               <span className="bannerIcon">
+                  <SiNextdotjs />
+              </span>
+              <span className="bannerIcon">
+                  <FaJava />
+              </span>
+              <span className='bannerIcon'>
+                  <SiJavascript />
+              </span>
+              <span className="bannerIcon">
+                  <SiTypescript />
+              </span>
+              <span className='bannerIcon'>
+                  <SiTailwindcss/>
+              </span>
+              <span className="bannerIcon">
                   <SiHtml5 />
               </span>
               <span className="bannerIcon">
                   <SiCss3 />
               </span>
               <span className="bannerIcon">
-                  <SiTypescript />
-              </span>
-              <span className="bannerIcon">
-                  <SiNodedotjs />
-              </span>
-              <span className="bannerIcon">
-                  <SiExpress />
-              </span>
-              <span className="bannerIcon">
-                  <SiReact />
-              </span>
-              <span className="bannerIcon">
-                  <SiTailwindcss />
-              </span>
-              <span className="bannerIcon">
-                  <SiMongodb />
-              </span>
-              <span className="bannerIcon">
                   <SiMysql />
               </span>
+              <span className="bannerIcon">
+                  <SiPostgresql />
+              </span>
+              <span className="bannerIcon">
+                  <SiGraphql />
+              </span>
+              <span className="bannerIcon">
+                  <SiRedux />
+              </span>
+              <span className="bannerIcon">
+                  <SiC/>
+              </span>
+              <span className="bannerIcon">
+                  <SiCplusplus />
+              </span>
+              <span className="bannerIcon">
+                  <FaGithub />
+              </span>
+              <span className='bannerIcon'>
+                  <FaLinux />
+              </span>
+              <span className="bannerIcon">
+                  <SiClerk/>
+              </span>
+
         </div>
       </div>
 
