@@ -42,7 +42,7 @@ const ContactRight = () => {
 
       try {
         // Send data to the server if all fields are valid
-        const response = await fetch("https://xenoai-backend.onrender.com/send-email", {
+        const response = await fetch("https://portfilio-backend-4bet.onrender.com/send-email", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
