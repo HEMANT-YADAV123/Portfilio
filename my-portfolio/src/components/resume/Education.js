@@ -61,7 +61,7 @@ const Education = () => {
                 title='Full Stack web developer intern'
                 subTitle='at tastezy Marketplace'
                 result='20 Jan - present'
-                desc='Currently working in Tastezy Marketplace as a full-stack web developer intern.As an intern i am working on client project using technologies like MERN Stack , Next.js , TypeScript etc.'
+                desc= " Developing client projects of the company, the company’s official website, and official app.Building scalable full-stack solutions using MERN Stack, Next.js, and PostgreSQL Collaborating with teams to refine features of projects and troubleshoot issues efficiently"
                 />
                     
                 </div>

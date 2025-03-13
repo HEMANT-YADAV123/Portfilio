@@ -22,7 +22,7 @@ const Experience = () => {
               title='Full Stack web developer intern'
               subTitle='at tastezy Marketplace'
               result='20 Jan - present'
-              desc='Currently working in Tastezy Marketplace as a full-stack web developer intern.As an intern i am working on client project using technologies like MERN Stack , Next.js , TypeScript etc.'
+              desc='Currently working in Tastezy Marketplace as a full-stack web developer intern.As an intern i am working on client project using technologies like MERN Stack , Next.js , TypeScript, Redux, RTK Query etc. Collaborating with teams to build scalable web solutions'
               />
         </div>
       </div>
