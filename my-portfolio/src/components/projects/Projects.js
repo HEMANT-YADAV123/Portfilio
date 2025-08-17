@@ -31,7 +31,7 @@ const Projects = () => {
           desc=" Vistaro is a modern event ticketing platform featuring a smart queuing system, real-time updates, and secure payments."
           src={ProjectNine}
           link="https://github.com/HEMANT-YADAV123/Vistaro"
-          liveLink=" "
+          liveLink="https://vistaro-rho.vercel.app/"
         />
 
         <ProjectCard

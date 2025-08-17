@@ -26,6 +26,20 @@ const Achievements = () => {
           />
 
           <ResumeCard
+          title=' Solutions Architecture Job Simulation - AWS'
+          subTitle=' Amazon Web Service'
+          result='Completed'
+          desc=' Completed Solution Architecture Job Simulation by AWS and earned a certificate.'
+          />
+
+          <ResumeCard
+          title=' Generational AI certification by IBM'
+          subTitle=' IBM'
+          result='Completed'
+          desc=' Completed Generative AI course by IBM and earned their certification.'
+          />
+
+          <ResumeCard
           title='Smart India Hackethon'
           subTitle='Participated in SIH 2024'
           result='Cleared internal Round'
@@ -40,9 +54,9 @@ const Achievements = () => {
           />
 
           <ResumeCard
-          title='250+ DSA Questions'
-          result='150+ Questions on Leetcode'
-          desc='  Solved 250+ coding problems, including 150+ problems on LeetCode, showcasing strong problem-solving skills.'
+          title='300+ DSA Questions'
+          result='250+ Questions on Leetcode'
+          desc='  Solved 300+ coding problems, including 250+ problems on LeetCode, showcasing strong problem-solving skills.'
           />
 
         </div>

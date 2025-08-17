@@ -1,5 +1,5 @@
 import logo from './images/H-logo-removebg-preview.png';
-import bannerImg from './images/hemantimg.png'
+import bannerImg from './images/Gibli.png'
 import projectOne from "./images/projects/Project1.png";
 import projectTwo from "./images/projects/Project2.png";
 import projectThree from "./images/projects/Project3.png";
