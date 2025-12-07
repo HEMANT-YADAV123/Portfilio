@@ -1,10 +1,8 @@
-import React from "react";
 import { contactImg } from "../../assets/index.js";
 import {
   FaFacebook,
   FaInstagram,
   FaLinkedin,
-  FaLinkedinIn,
 } from "react-icons/fa";
 const ContactLeft = () => {
   return (
