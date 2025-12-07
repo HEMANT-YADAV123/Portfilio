@@ -38,7 +38,7 @@ const ContactRight = () => {
       setLoading(true); // ✅ SHOW SENDING STATE
 
       try {
-        const response = await fetch("http://localhost:5001/send-email", {
+        const response = await fetch("https://portfilio-backend-4bet.onrender.com/send-email", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
